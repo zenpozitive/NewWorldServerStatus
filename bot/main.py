@@ -44,8 +44,8 @@ def setLanguage(langToSet):
     global TranslationAvailableServer, TranslationUnavailableServer, TranslationStatusUnavailable, TranslationUnspecifiedChannelName, TranslationChannelChoiceConfirmation, TranslationUnableToFindChannel, TranslationUnspecifiedServerName, TranslationServerChoiceConfirmation, TranslationServerNotInTheList, TranslationUnspecifiedLanguage, TranslationLanguageNotInTheList, TranslationLanguageChoiceConfirmation
         
     if langToSet == 'FR':
-        TranslationAvailableServer = 'Le serveur \'{}\' n\'est pas accessible'
-        TranslationUnavailableServer = 'Le serveur \'{}\' est accessible'
+        TranslationUnavailableServer = 'Le serveur \'{}\' n\'est pas accessible'
+        TranslationAvailableServer = 'Le serveur \'{}\' est accessible'
         TranslationStatusUnavailable = 'Impossible d\'obtenir le statut du serveur'
         TranslationUnspecifiedChannelName = 'Merci de spécifier le nom du canal de discussion pour le bot'
         TranslationChannelChoiceConfirmation = 'Le canal a bien été modifié'
@@ -57,8 +57,8 @@ def setLanguage(langToSet):
         TranslationLanguageNotInTheList = 'Merci de spécifier une langue prise en charge'
         TranslationLanguageChoiceConfirmation = 'La langue a bien été remplacée par {}'
     elif langToSet == 'EN':
-        TranslationAvailableServer = 'The server \'{}\' is unavailable'
-        TranslationUnavailableServer = 'The serveur \'{}\' is available'
+        TranslationUnavailableServer = 'The server \'{}\' is unavailable'
+        TranslationAvailableServer = 'The serveur \'{}\' is available'
         TranslationStatusUnavailable = 'Unable to find the server status'
         TranslationUnspecifiedChannelName = 'The channel name must be specified'
         TranslationChannelChoiceConfirmation = 'The channel has been selected'
