@@ -57,6 +57,6 @@ Be free to do pull requests and I will look at it when I've got time.
 
 ## Improvements
 
-- Add language choice (with a command) with two languages : french and english
+✅ Add language choice (with a command) with two languages : french and english
 - Have the ability to choose more than one server to watch
 - Remove the server list in my code to take it automatically from the status page (that's awful)
