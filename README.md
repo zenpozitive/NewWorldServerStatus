@@ -18,6 +18,8 @@ The bot only need write permission to works (no abuses).
 
 ## Commands
 
+### Required ones
+
 When the bot comes to your server, **you have two commands to use if you wants the Bot works properly**, else, nothing will happen.
 
 Select the written channel where the bot will write when the server is up or down
@@ -29,6 +31,19 @@ Select the New World server to check the status (only one is possible for now)
 > $server NameOfTheServer
 
 *Ex : $server Yomi*
+
+### Optional ones
+
+Get the server list
+> $server list
+
+Get the language list
+> $lang list
+
+Change the language (the default one is english (EN)
+> $lang MYLANGUAGECODE
+
+*Ex : $lang FR*
 
 ## What is does exactly
 
