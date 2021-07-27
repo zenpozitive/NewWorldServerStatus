@@ -1,8 +1,2 @@
 discord.py
 bs4
-os
-re
-urllib
-time
-asyncio
-dotenv
